@@ -1,6 +1,6 @@
 # Playable3DMaze
 ## Background
-Windows 9x included a set of new screensavers to showcase OpenGL. One of these screensavers was [3D Maze](https://en.wikipedia.org/wiki/3D_Maze). This screensaver would automatically navigate the "player" through a randomly generated maze, continuing until it reached the endpoint.
+Windows 9x included a set of new screensavers to showcase OpenGL - one of these screensavers was [3D Maze](https://en.wikipedia.org/wiki/3D_Maze). This screensaver would automatically navigate the "player" through a randomly generated maze, continuing until it reached the endpoint.
 
 As a child, I often thought Microsoft should have released a playable version of this game. This simple project brings that idea to reality!
 
