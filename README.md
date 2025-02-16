@@ -15,6 +15,8 @@ The SHA-256 hash of the original screensaver binary (`ssmaze.scr`) from Microsof
 
 While other versions of `ssmaze.scr` exist, this project relies on hardcoded offsets, making this the only version compatible. For convenience, the correct binary is included within the project.
 
+The original screensaver stored configuration options within an INI file, but this project hooks the built-in configuration functionality and hardcodes the correct values instead.
+
 I also fixed a few minor bugs in the original executable, and added an option to toggle the overhead map view using the `Tab` key.
 
 ## Usage
