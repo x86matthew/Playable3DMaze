@@ -20,3 +20,5 @@ I also fixed a few minor bugs in the original executable, and added an option to
 ## Usage
 
 Simply execute `Playable3DMazeLoader.exe`, ensuring that `Playable3DMaze.dll` and `ssmaze.scr` exist within the same directory.
+
+The maze can be navigated with the arrow keys, and the `Tab` key toggles the overheap map.
