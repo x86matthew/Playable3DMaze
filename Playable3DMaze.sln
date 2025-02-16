@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playable3DMazeLoader", "Playable3DMazeLoader\Playable3DMazeLoader.vcproj", "{B8B2BB26-A692-43BF-9ABF-B2FAD93ABB9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playable3DMaze", "Playable3DMaze\Playable3DMaze.vcproj", "{9AB7308D-B206-473C-A228-11A28D7845E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B2BB26-A692-43BF-9ABF-B2FAD93ABB9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8B2BB26-A692-43BF-9ABF-B2FAD93ABB9A}.Debug|Win32.Build.0 = Debug|Win32
+		{B8B2BB26-A692-43BF-9ABF-B2FAD93ABB9A}.Release|Win32.ActiveCfg = Release|Win32
+		{B8B2BB26-A692-43BF-9ABF-B2FAD93ABB9A}.Release|Win32.Build.0 = Release|Win32
+		{9AB7308D-B206-473C-A228-11A28D7845E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AB7308D-B206-473C-A228-11A28D7845E7}.Debug|Win32.Build.0 = Debug|Win32
+		{9AB7308D-B206-473C-A228-11A28D7845E7}.Release|Win32.ActiveCfg = Release|Win32
+		{9AB7308D-B206-473C-A228-11A28D7845E7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
