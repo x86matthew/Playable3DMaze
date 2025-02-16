@@ -7,7 +7,7 @@ As a child, I often thought Microsoft should have released a playable version of
 ## Implementation
 While others have developed similar projects by recreating the game using modern game engines with the original textures, I chose a different approach. I reverse-engineered the original screensaver binary and modified it to add user controls.
 
-This wasn't particularly difficult as most of the core game logic already exists within the executable. I hooked some internal functions to remove the computer-controlled aspects, and replaced them with user-controlled keyboard input.
+This wasn't particularly difficult as most of the core game logic already exists within the executable. Essentially, all that's needed is to patch out the computer-controlled logic and replace it with user-controlled keyboard input.
 
 The main executable (`Playable3DMazeLoader.exe`) launches an instance of the original 3DMaze screensaver (`ssmaze.scr`), and injects a DLL (`Playable3DMaze.dll`) to extend its functionality. Anti-virus software may detect this as a false-positive.
 
