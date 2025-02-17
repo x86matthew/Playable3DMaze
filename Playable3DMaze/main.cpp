@@ -400,7 +400,7 @@ VOID __declspec(naked) Hook_BeginGame()
 VOID OverwriteRelative32(VOID *pAddress, VOID *pDestination)
 {
 	// overwrite rel32 destination
-	*(DWORD*)((BYTE*)pAddress) = (DWORD)((ULONG_PTR)pDestination - (ULONG_PTR)((BYTE*)pAddress + 4));
+	*(DWORD*)pAddress = (DWORD)((ULONG_PTR)pDestination - (ULONG_PTR)((BYTE*)pAddress + 4));
 }
 
 VOID InlineHook(VOID *pAddress, VOID *pDestination)
