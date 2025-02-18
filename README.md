@@ -26,3 +26,13 @@ Simply execute `Playable3DMazeLoader.exe`, ensuring that `Playable3DMaze.dll` an
 The maze can be navigated with the arrow keys, and the `Tab` key toggles the overheap map.
 
 ![3DMaze](3dmaze_screenshot.jpg)
+
+## Build
+
+To optionally build the binaries, open the Playable3DMaze.sln solution in Visual Studio 2022, and build the `Playable3DMazeLoader` project.
+Or, to use CMake:
+
+```sh
+cmake --workflow --preset default
+cmake --install build
+```
